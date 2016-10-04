@@ -9,5 +9,11 @@ This client sends an image and the structured information to the server.
 
 server.cpp
 
-The server listens on a port and receives the data sent from the client.
+The server listens on a port and receives the data sent from the client, and then stores the structured information into MySQL database.
+
+access_database.PHP
+
+This PHP file is used to retrieve the information from the MySQL database and show it onto the web browser.
+
+
 
